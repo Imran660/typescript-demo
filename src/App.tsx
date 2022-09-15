@@ -1,24 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-
+import React from "react";
+import { addNumbers, user } from "./hepler";
 function App() {
+  console.log(addNumbers(5, 8));
+  console.log(user.getSalary && user.getSalary(4520)); // cannot read the property of undefined of user
+  console.log();
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2>Hey Learners, let's learn typescript</h2>
     </div>
   );
 }
