@@ -34,3 +34,11 @@ export const user: userTypes = {
 // export const member:userTypes={
 
 // }
+
+// let name:string;
+
+// name="imran"
+// name=45
+
+
+
